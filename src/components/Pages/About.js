@@ -14,10 +14,10 @@ const About = () => {
             </div> 
         </div>
         <div className="images">
-                <div className="column"><img src={tats}/> </div>
-                <div className="column"><img src={bandmember1}/></div>
-                <div className="column"><img src={bandmember3}/></div> 
-                <div className="column"><img src={bandmember2}/></div>
+                <div className="column"><img src={tats} alt=''/> </div>
+                <div className="column"><img src={bandmember1} alt=''/></div>
+                <div className="column"><img src={bandmember3} alt=''/></div> 
+                <div className="column"><img src={bandmember2} alt=''/></div>
                   
         </div>
         </div>

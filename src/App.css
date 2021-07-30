@@ -82,8 +82,12 @@
   flex-wrap: wrap;
 }
 .event-images img{
-  width: 30%;
+  width: 75%;
   height: auto;
+}
+.underground{
+  width: auto;
+  height: 100%;
 }
 
   /* all mobile css */

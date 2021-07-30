@@ -26,19 +26,19 @@ const Footer = () => {
               <a
                 class='social-icon-link-facebook'
                 href='https://www.facebook.com/drekkc/'
-                target='_blank'>
+                target='_blank' rel="noreferrer">
                 <img className='icon' src={facebook} alt='' />
               </a>
               <a
                 class='social-icon-link-reverb'
                 href='https://www.reverbnation.com/dreknation?fbclid=IwAR0KaaXnp206iTnoJf9fFUO1v9yT_uvu1jng_cCPaWaVelf0hEqCAWyeLpU'
-                target='_blank'>
+                target='_blank' rel="noreferrer">
                 <img className='icon' src={reverb} alt='' />
               </a>
               <a
                 class='social-icon-link-youtube'
                 href='https://www.youtube.com/user/dreknation'
-                target='_blank'>
+                target='_blank' rel="noreferrer">
                 <img className='icon' src={youtube} alt='' /> 
               </a>
               <a
@@ -50,13 +50,13 @@ const Footer = () => {
               <a
                 class='social-icon-link-spotify'
                 href='https://open.spotify.com/artist/3rSMpL3kvOQUvMP5qzTWA9'
-                target='_blank'>
+                target='_blank' rel="noreferrer">
                 <img className='icon'src={spotify} alt='' /> 
               </a>
               <a
                 class='social-icon-link-apple'
                 href='https://music.apple.com/us/album/happens/1568083673?fbclid=IwAR0yDWt1NVaLh046lnVhh8rR2lxuRQvBEGiwlGt8-3_e07VZd4UlTnYm7_w'
-                target='_blank'>
+                target='_blank' rel="noreferrer">
                 <img className='icon'src={apple} alt='' /> 
               </a>
             </div>

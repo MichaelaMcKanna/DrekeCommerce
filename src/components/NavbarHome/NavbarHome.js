@@ -3,7 +3,7 @@ import logo from '../../assets/drek-icon.png'
 //import useStyles from './styles'
 import { HomeButtons } from '../HomeButtons/HomeButtons'
 import './NavBarHome.css'
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core'
+import { Toolbar, IconButton, Badge, Typography } from '@material-ui/core'
 import { ShoppingCart } from '@material-ui/icons'
 import { grey } from '@material-ui/core/colors';
 import {Link, useLocation} from 'react-router-dom'
