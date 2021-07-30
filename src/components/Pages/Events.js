@@ -1,9 +1,22 @@
 import React from 'react'
 import '../../App.css'
+import rocklahoma from '../../assets/rocklahoma.jpg'
+import underground from '../../assets/Underground stage.jpg'
+
+
 
 const Events = () => {
     return (
-     <h1 className="events">Events</h1>
+     <div className="events-container">
+         <div className='event-images'>
+           <a href='http://www.tulsashrine.com/'>
+             <img src={rocklahoma}/>
+           </a>
+           <a href='https://rocklahoma.com/info#venue'>
+             <img src={underground}/>
+           </a> 
+         </div>
+     </div>
     )
 }
 

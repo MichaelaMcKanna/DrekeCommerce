@@ -23,42 +23,42 @@ const Footer = () => {
             </div>
            
             <div class='social-icons'>
-              <Link
+              <a
                 class='social-icon-link-facebook'
-                to='https://www.facebook.com/drekkc/'
+                href='https://www.facebook.com/drekkc/'
                 target='_blank'>
                 <img className='icon' src={facebook} alt='' />
-              </Link>
-              <Link
+              </a>
+              <a
                 class='social-icon-link-reverb'
-                to='https://www.reverbnation.com/dreknation?fbclid=IwAR0KaaXnp206iTnoJf9fFUO1v9yT_uvu1jng_cCPaWaVelf0hEqCAWyeLpU'
+                href='https://www.reverbnation.com/dreknation?fbclid=IwAR0KaaXnp206iTnoJf9fFUO1v9yT_uvu1jng_cCPaWaVelf0hEqCAWyeLpU'
                 target='_blank'>
                 <img className='icon' src={reverb} alt='' />
-              </Link>
-              <Link
+              </a>
+              <a
                 class='social-icon-link-youtube'
-                to='https://www.youtube.com/user/dreknation'
+                href='https://www.youtube.com/user/dreknation'
                 target='_blank'>
                 <img className='icon' src={youtube} alt='' /> 
-              </Link>
-              <Link
+              </a>
+              <a
                 class='social-icon-link-twitter'
-                to='/https://twitter.com/dreknation'
+              href='/https://twitter.com/dreknation'
                 target='_blank'>
                 <img className='icon'src={twitter} alt='' /> 
-              </Link>
-              <Link
+              </a>
+              <a
                 class='social-icon-link-spotify'
-                to='https://open.spotify.com/artist/3rSMpL3kvOQUvMP5qzTWA9'
+                href='https://open.spotify.com/artist/3rSMpL3kvOQUvMP5qzTWA9'
                 target='_blank'>
                 <img className='icon'src={spotify} alt='' /> 
-              </Link>
-              <Link
+              </a>
+              <a
                 class='social-icon-link-apple'
-                to='https://music.apple.com/us/album/happens/1568083673?fbclid=IwAR0yDWt1NVaLh046lnVhh8rR2lxuRQvBEGiwlGt8-3_e07VZd4UlTnYm7_w'
+                href='https://music.apple.com/us/album/happens/1568083673?fbclid=IwAR0yDWt1NVaLh046lnVhh8rR2lxuRQvBEGiwlGt8-3_e07VZd4UlTnYm7_w'
                 target='_blank'>
                 <img className='icon'src={apple} alt='' /> 
-              </Link>
+              </a>
             </div>
             <div className='rights'>
                 <small class='website-rights'>DREK © 2021</small>
