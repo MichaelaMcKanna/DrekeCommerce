@@ -16,7 +16,7 @@ const Footer = () => {
         <section class='social-media'>
           <div class='social-media-wrap'>
             <div class='footer-logo'>
-              <Link to='/home' className='social-logo'>
+              <Link to='/' className='social-logo'>
                 DREK
                 <img src={logo} alt="" height="40px" />
               </Link>

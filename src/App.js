@@ -74,7 +74,7 @@ const App = () =>{
             <div>
             <NavbarHome totalItems={cart.total_items} />
                <Switch>
-                    <Route exact path="/home" >
+                    <Route exact path="/" >
                         <Home />
                     </Route>
                     <Route exact path="/about" >
@@ -84,7 +84,7 @@ const App = () =>{
                         <Events />
                     </Route>
                  {/* ecommerce */}
-                    <Route exact path="/">
+                    <Route exact path="/merch">
                         <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty/>
                     </Route>
                     <Route exact path="/cart">

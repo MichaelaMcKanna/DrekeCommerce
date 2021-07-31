@@ -12,7 +12,7 @@ const Cart = ({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart}) => {
 
     const EmptyCart = () => (
         <Typography variant="subtitle1">You have to items in your cart,
-        <Link to="/" className={classes.link}>add some items to your cart.</Link>
+        <Link to="/merch" className={classes.link}>add some items to your cart.</Link>
         </Typography>
     );
 

@@ -40,7 +40,7 @@ const NavbarHome = ({totalItems}) => {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/home" className="navbar-logo">Drek
+                    <Link to="/" className="navbar-logo">Drek
                      <img src={logo} alt="" height="40px" 
                     />
                     </Link>
@@ -49,10 +49,10 @@ const NavbarHome = ({totalItems}) => {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                         <li className='nav-item'>
-                            <Link to='/home' className='nav-links' onClick={closeMobileMenu} >Home</Link>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu} >Home</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>Merch</Link>
+                            <Link to='/merch' className='nav-links' onClick={closeMobileMenu}>Merch</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>
@@ -66,7 +66,7 @@ const NavbarHome = ({totalItems}) => {
                 </div>
                 <>
                 <div className={classes.grow}/>
-                    {location.pathname === '/' && (
+                    {location.pathname === '/merch' && (
                         <div className={classes.button}>
                         <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
                             <Badge badgeContent={totalItems} color="secondary">
@@ -74,28 +74,9 @@ const NavbarHome = ({totalItems}) => {
                             </Badge>
                         </IconButton>
                     </div>
-                    )}
+                    )}   
                 </>
             </nav> 
-            {/* <AppBar position="fixed" className={classes.appBar} color="inherit"> */}
-                <Toolbar>
-                    {/* <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-                        <img src={logo} alt="Merch" height="40px" className={classes.image} />
-                        Drek 
-                    </Typography> */}
-                    
-                    {/* <div className={classes.grow}/>
-                    {location.pathname === '/' && (
-                        <div className={classes.button}>
-                        <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-                            <Badge badgeContent={totalItems} color="secondary">
-                                <ShoppingCart/>
-                            </Badge>
-                        </IconButton>
-                    </div>
-                    )} */}
-                </Toolbar>
-            {/* </AppBar> */}
         </>
     )
 }
