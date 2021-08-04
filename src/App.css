@@ -118,4 +118,12 @@
       flex: 100%;
       max-width: 100%;
     }
+    .about{
+      margin-bottom: 50px;
+    }
+    .text{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      font-size: 16px;
+    }
   }
